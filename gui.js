@@ -74,7 +74,12 @@
   ExploreButton.style.top = "40px";
   ExploreButton.style.left = "5px";
   ExploreButton.onclick = function() {
-
+    let Win1 = window.open("https://www.google.com");
+    Win1.document.write(`
+    <p>[RW] Explore Global Scripts<p>
+    <p>-C:(babyfy)-</p>
+    <p>-C:(crashpage)-</p>
+    `)
   }
   GUI.appendChild(ExploreButton);
 
