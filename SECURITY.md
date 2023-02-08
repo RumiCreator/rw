@@ -4,13 +4,21 @@
 
 Version | Supported will show you what updates have security, and whatnot.
 
+### Security will be added in Alpha V2.2
+
 | Version | Supported          |
 | ------- | ------------------ |
-| 1.3.x (Coming Soon)   | :white_check_mark: |
-| 1.2.x   | :x:                |
-| 1.1.x   | :white_check_mark: |
-| 1.0.x   | :x:                |
+| 1.2     | :x:                |
+| 1.1     | :x:                | 
+| 1.0     | :x:                |
 
 ## Reporting a Vulnerability
 
 Report a vulnerability in "Issues", subject "Vulnerability", and explain your issue there.
+
+# Version History
+
+| Version | History |
+|  ------ |  ------ |
+|  1.2    |  CSS, red-orange based UI. |
+|  1.1    |  |
