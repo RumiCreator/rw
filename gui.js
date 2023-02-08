@@ -83,6 +83,19 @@
   }
   GUI.appendChild(ExploreButton);
 
+
+  const CommandButton = document.createElement('button');
+  CommandButton.innerHTML = "Command Line";
+  CommandButton.zIndex = 2147483647;
+  CommandButton.style.position = "absolute";
+  CommandButton.style.borderRadius = "7.5px";
+  CommandButton.style.borderWidth = "thick";
+  CommandButton.style.borderColor = "red";
+  CommandButton.style.backgroundColor = "orange";
+  CommandButton.style.top = "65px";
+  CommandButton.style.left = "5px";
+  GUI.appendChild(CommandButton);
+
   function CheckForHidden() {
     if (hidden == "false") {
       GUI.style.opacity = 1;
