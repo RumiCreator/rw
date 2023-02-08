@@ -17,7 +17,7 @@
   GUI.style.backgroundColor = "darkRed";
   GUI.style.borderRadius = "15px"
   GUI.style.height = "135px";
-  GUI.style.width = "200px";
+  GUI.style.width = "250px";
 
   GUI.style.zIndex = 2147483646;
   document.body.appendChild(GUI);
@@ -33,7 +33,7 @@
   const TextContent = document.createElement('div')
   TextContent.zIndex = 2147483647;
   TextContent.style.position = "absolute";
-  TextContent.style.top = "95px";
+  TextContent.style.top = "115px";
   TextContent.style.left = "5px";
   TextContent.style.borderRadius = '7.5px';
   TextContent.style.borderWidth = 'thick';
@@ -92,7 +92,7 @@
   CommandButton.style.borderWidth = "thick";
   CommandButton.style.borderColor = "red";
   CommandButton.style.backgroundColor = "orange";
-  CommandButton.style.top = "65px";
+  CommandButton.style.top = "95px";
   CommandButton.style.left = "5px";
   GUI.appendChild(CommandButton);
 
