@@ -71,7 +71,7 @@
   ExploreButton.style.borderWidth = "thick";
   ExploreButton.style.borderColor = "red";
   ExploreButton.style.backgroundColor = "orange";
-  ExploreButton.style.top = "40px";
+  ExploreButton.style.top = "35px";
   ExploreButton.style.left = "5px";
   ExploreButton.onclick = function() {
     let Win1 = window.open("https://www.google.com");
@@ -92,7 +92,7 @@
   CommandButton.style.borderWidth = "thick";
   CommandButton.style.borderColor = "red";
   CommandButton.style.backgroundColor = "orange";
-  CommandButton.style.top = "95px";
+  CommandButton.style.top = "90px";
   CommandButton.style.left = "5px";
   GUI.appendChild(CommandButton);
 
