@@ -1,4 +1,4 @@
-function loadGUI() {
+
   let hidden = "false";
 
   const data = {
@@ -109,6 +109,3 @@ function loadGUI() {
 
   GUI.appendChild(HideShow);
 
-}
-
-loadGUI();
