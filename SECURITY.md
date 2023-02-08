@@ -6,10 +6,10 @@ Version | Supported will show you what updates have security, and whatnot.
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| 1.3.x (Coming Soon)   | :white_check_mark: |
+| 1.2.x   | :x:                |
+| 1.1.x   | :white_check_mark: |
+| 1.0.x   | :x:                |
 
 ## Reporting a Vulnerability
 
