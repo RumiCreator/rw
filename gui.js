@@ -50,6 +50,8 @@ function divMove(e){
   div.style.left = e.clientX + 'px';
 }
 
+addListeners()
+
   const ExecuteButton = document.createElement('button');
   ExecuteButton.innerHTML = "Execute Script";
   ExecuteButton.style.zIndex = 2147483647;
