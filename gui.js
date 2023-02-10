@@ -86,7 +86,7 @@
   ExploreButton.onmouseover = function(){ 
     ExploreButton.style.backgroundColor = "#b00000";
   }
-  ExecuteButton.onmouseout = function(){ 
+  ExploreButton.onmouseout = function(){ 
     ExploreButton.style.backgroundColor = "#ff0000";
   }
   
