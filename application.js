@@ -22,22 +22,7 @@
   GUI.style.scrollTop = "200px";
   GUI.style.overflowY = "scroll";
 
-
-  const ExploreDiv = document.createElement("div");
-  ExploreDiv.style.position = "absolute";
-  ExploreDiv.style.top = "200px";
-  ExploreDiv.style.left = "200px";
-  ExploreDiv.style.backgroundColor = "darkRed";
-  ExploreDiv.style.borderRadius = "6px"
-  ExploreDiv.style.height = "155px";
-  ExploreDiv.style.width = "160px";
-  ExploreDiv.style.boxShadow = "0 16px 32px 0 rgba(0,0,0,0.2), 0 12px 40px 0 rgba(0,0,0,0.19)";
-  ExploreDiv.style.scrollTop = "200px";
-  ExploreDiv.style.overflowY = "scroll";
-  ExploreDiv.style.visibility = "hidden";
-
-
-  ExploreDiv.style.zIndex = 2147483646;
+  GUI.zIndex = 2147483646;
   document.body.appendChild(GUI);
 
   function Execute() {
@@ -49,7 +34,7 @@
 function addListeners(){
     GUI.addEventListener('mousedown', mouseDown, false);
     window.addEventListener('mouseup', mouseUp, false);
-
+    
 }
 
 function mouseUp()
@@ -103,36 +88,6 @@ addListeners()
     }
   }
   GUI.appendChild(ExecuteButton);
-
-
-  const ExploreButton = document.createElement('button');
-  ExploreButton.innerHTML = "Explore";
-  ExploreButton.style.zIndex = 2147483647;
-  ExploreButton.style.position = "absolute";
-  ExploreButton.style.top = "80px";
-  ExploreButton.style.left = "5px";
-  ExploreButton.style.display = "inline-block";
-  ExploreButton.style.padding = "10px 20px";
-  ExploreButton.style.backgroundColor = "#ff0000";
-  ExploreButton.style.color = "white";
-  ExploreButton.style.textAlign = "center";
-  ExploreButton.style.textDecoration = "none";
-  ExploreButton.style.borderRadius = "4px";
-  ExploreButton.style.border = "none";
-  ExploreButton.style.fontSize = "10px";
-  ExploreButton.style.cursor = "pointer";
-  ExploreButton.style.boxShadow = "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)";
-  ExploreButton.style.transition = "all 0.3s ease-in-out";
-  ExploreButton.onmouseover = function(){ 
-    ExploreButton.style.backgroundColor = "#b00000";
-  }
-  ExploreButton.onmouseout = function(){ 
-    ExploreButton.style.backgroundColor = "#ff0000";
-  }
-
-  ExploreButton.onclick = function() {
-    ExploreDiv.visibility = "visible";
-  }
 
 
   function CheckForHidden() {
