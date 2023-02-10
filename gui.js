@@ -30,6 +30,7 @@
 
 
   const ExecuteButton = document.createElement('button');
+  ExecuteButton.innerHTML = "Execute Script"
   ExecuteButton.style.zIndex = 2147483647;
   ExecuteButton.style.position = "absolute";
   ExecuteButton.style.top = "115px";
