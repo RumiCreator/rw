@@ -33,7 +33,6 @@
   const TextContent = document.createElement('div')
   TextContent.zIndex = 2147483647;
   TextContent.style = {'
-  #RWB {
   display: inline-block;
   padding: 10px 20px;
   background-color: #4CAF50;
