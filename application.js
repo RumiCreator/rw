@@ -32,7 +32,7 @@ function addListeners(){
 function mouseUp()
 {
     window.removeEventListener('mousemove', divMove, true);
-}
+} 
 
 function mouseDown(e){
   window.addEventListener('mousemove', divMove, true);
