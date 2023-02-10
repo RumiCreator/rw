@@ -31,29 +31,21 @@
 
 
   const TextContent = document.createElement('div')
-  TextContent.zIndex = 2147483647;
-  TextContent.style = {`
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #4CAF50;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 4px;
-  border: none;
-  font-size: 16px;
-  cursor: pointer;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  transition: all 0.3s ease-in-out;
-  top: 115px;
-  left: 5px;
-  :hover {
-  background-color: #3e8e41;
-}
-`}
+TextContent.style.TextContent.zIndex = 2147483647;
+TextContent.style.display: "inline-block";
+TextContent.style.padding: "10px 20px";
+TextContent.style.backgroundColor: "#4CAF50";
+TextContent.style.color: "white";
+TextContent.style.textAlign: "center";
+TextContent.style.TextContent.style.textDecoration: "none";
+TextContent.style.borderRadius: "4px";
+TextContent.style.border: "none";
+TextContent.style.fontSize: "16px";
+TextContent.style.cursor: "pointer";
+TextContent.style.boxShadow: "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)";
+TextContent.style.transition: "all 0.3s ease-in-out";
+TextContent.style.":hover": { backgroundColor: "#3e8e41" };
 
-
-  `}
   TextContent.innerHTML = "Wanna explore a huge variety of scripts? Click 'Explore'!";
   GUI.appendChild(TextContent);
 
