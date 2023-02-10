@@ -103,14 +103,28 @@
 
   const CommandButton = document.createElement('button');
   CommandButton.innerHTML = "Command Line";
-  CommandButton.zIndex = 2147483647;
+  CommandButton.style.zIndex = 2147483647;
   CommandButton.style.position = "absolute";
-  CommandButton.style.borderRadius = "7.5px";
-  CommandButton.style.borderWidth = "thick";
-  CommandButton.style.borderColor = "red";
-  CommandButton.style.backgroundColor = "orange";
-  CommandButton.style.top = "90px";
+  CommandButton.style.top = "80px";
   CommandButton.style.left = "5px";
+  CommandButton.style.display = "inline-block";
+  CommandButton.style.padding = "10px 20px";
+  CommandButton.style.backgroundColor = "#ff0000";
+  CommandButton.style.color = "white";
+  CommandButton.style.textAlign = "center";
+  CommandButton.style.textDecoration = "none";
+  CommandButton.style.borderRadius = "4px";
+  CommandButton.style.border = "none";
+  CommandButton.style.fontSize = "10px";
+  CommandButton.style.cursor = "pointer";
+  CommandButton.style.boxShadow = "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)";
+  CommandButton.style.transition = "all 0.3s ease-in-out";
+  CommandButton.onmouseover = function(){ 
+    CommandButton.style.backgroundColor = "#b00000";
+  }
+  CommandButton.onmouseout = function(){ 
+    CommandButton.style.backgroundColor = "#ff0000";
+  }
   GUI.appendChild(CommandButton);
 
   function CheckForHidden() {
