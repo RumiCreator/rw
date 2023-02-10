@@ -32,13 +32,30 @@
 
   const TextContent = document.createElement('div')
   TextContent.zIndex = 2147483647;
-  TextContent.style.position = "absolute";
-  TextContent.style.top = "115px";
-  TextContent.style.left = "5px";
-  TextContent.style.borderRadius = '7.5px';
-  TextContent.style.borderWidth = 'thick';
-  TextContent.style.borderColor = 'red';
-  TextContent.style.backgroundColor = "orange";
+  TextContent.style = {'
+  #RWB {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition: all 0.3s ease-in-out;
+  top: 115px;
+  left: 5px;
+'}
+
+#RWB:hover {
+  background-color: #3e8e41;
+}
+
+
+  `}
   TextContent.innerHTML = "Wanna explore a huge variety of scripts? Click 'Explore'!";
   GUI.appendChild(TextContent);
 
