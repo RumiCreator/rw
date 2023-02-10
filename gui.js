@@ -32,7 +32,7 @@
 
   const TextContent = document.createElement('div')
   TextContent.zIndex = 2147483647;
-  TextContent.style = {'
+  TextContent.style = {`
   display: inline-block;
   padding: 10px 20px;
   background-color: #4CAF50;
@@ -47,7 +47,7 @@
   transition: all 0.3s ease-in-out;
   top: 115px;
   left: 5px;
-'}
+`}
 
 #RWB:hover {
   background-color: #3e8e41;
