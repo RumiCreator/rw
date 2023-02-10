@@ -29,41 +29,26 @@
   }
 
 
-
-  const TextContent = document.createElement('div');
-  TextContent.style.zIndex = 2147483647;
-  TextContent.style.position = "absolute";
-  TextContent.style.top = "115px";
-  TextContent.style.left = "5px";
-  TextContent.style.TextContent.zIndex = 2147483647;
-  TextContent.style.display = "inline-block";
-  TextContent.style.padding = "10px 20px";
-  TextContent.style.backgroundColor = "#4CAF50";
-  TextContent.style.color = "white";
-  TextContent.style.textAlign = "center";
-  TextContent.style.TextContent.style.textDecoration = "none";
-  TextContent.style.borderRadius = "4px";
-  TextContent.style.border = "none";
-  TextContent.style.fontSize = "16px";
-  TextContent.style.cursor = "pointer";
-  TextContent.style.boxShadow = "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)";
-  TextContent.style.transition = "all 0.3s ease-in-out";
-
-  TextContent.innerHTML = "Wanna explore a huge variety of scripts? Click 'Explore'!";
-  GUI.appendChild(TextContent);
-
-
   const ExecuteButton = document.createElement('button');
-
-  ExecuteButton.innerHTML = "Execute Script";
-  ExecuteButton.zIndex = 2147483647;
+  ExecuteButton.style.zIndex = 2147483647;
   ExecuteButton.style.position = "absolute";
-  ExecuteButton.style.borderRadius = '7.5px';
-  ExecuteButton.style.borderWidth = 'thick';
-  ExecuteButton.style.borderColor = 'red';
-  ExecuteButton.style.backgroundColor = "orange";
-  ExecuteButton.style.top = "60px";
-  ExecuteButton.style.left = "5px"
+  ExecuteButton.style.top = "115px";
+  ExecuteButton.style.left = "5px";
+  ExecuteButton.style.TextContent.zIndex = 2147483647;
+  ExecuteButton.style.display = "inline-block";
+  ExecuteButton.style.padding = "10px 20px";
+  ExecuteButton.style.backgroundColor = "#4CAF50";
+  ExecuteButton.style.color = "white";
+  ExecuteButton.style.textAlign = "center";
+  ExecuteButton.style.TextContent.style.textDecoration = "none";
+  ExecuteButton.style.borderRadius = "4px";
+  ExecuteButton.style.border = "none";
+  ExecuteButton.style.fontSize = "16px";
+  ExecuteButton.style.cursor = "pointer";
+  ExecuteButton.style.boxShadow = "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)";
+  ExecuteButton.style.transition = "all 0.3s ease-in-out";
+
+ 
   ExecuteButton.onclick = function() {
     let ExecutionProcess = Execute();
     if (ExecutionProcess) {
