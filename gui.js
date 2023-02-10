@@ -63,17 +63,33 @@
   }
   GUI.appendChild(ExecuteButton);
 
-
+  //  ExploreButton.style.top = "35px";
+  //  ExploreButton.style.left = "5px";
   const ExploreButton = document.createElement('button');
   ExploreButton.innerHTML = "Explore Global Scripts";
-  ExploreButton.zIndex = 2147483647;
+  ExploreButton.style.zIndex = 2147483647;
   ExploreButton.style.position = "absolute";
-  ExploreButton.style.borderRadius = "7.5px";
-  ExploreButton.style.borderWidth = "thick";
-  ExploreButton.style.borderColor = "red";
-  ExploreButton.style.backgroundColor = "orange";
-  ExploreButton.style.top = "35px";
+  ExploreButton.style.top = "115px";
   ExploreButton.style.left = "5px";
+  ExploreButton.style.display = "inline-block";
+  ExploreButton.style.padding = "10px 20px";
+  ExploreButton.style.backgroundColor = "#ff0000";
+  ExploreButton.style.color = "white";
+  ExploreButton.style.textAlign = "center";
+  ExploreButton.style.textDecoration = "none";
+  ExploreButton.style.borderRadius = "4px";
+  ExploreButton.style.border = "none";
+  ExploreButton.style.fontSize = "10px";
+  ExploreButton.style.cursor = "pointer";
+  ExploreButton.style.boxShadow = "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)";
+  ExploreButton.style.transition = "all 0.3s ease-in-out";
+  ExploreButton.onmouseover = function(){ 
+    ExploreButton.style.backgroundColor = "#b00000";
+  }
+  ExecuteButton.onmouseout = function(){ 
+    ExploreButton.style.backgroundColor = "#ff0000";
+  }
+  
   ExploreButton.onclick = function() {
     let Win1 = window.open("https://www.google.com");
     Win1.document.write(`
