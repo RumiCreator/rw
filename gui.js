@@ -39,7 +39,7 @@
   ExecuteButton.style.backgroundColor = "#4CAF50";
   ExecuteButton.style.color = "white";
   ExecuteButton.style.textAlign = "center";
-  ExecuteButton.style.TextContent.style.textDecoration = "none";
+  ExecuteButton.style.TextContent.textDecoration = "none";
   ExecuteButton.style.borderRadius = "4px";
   ExecuteButton.style.border = "none";
   ExecuteButton.style.fontSize = "16px";
