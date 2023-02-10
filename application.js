@@ -19,8 +19,8 @@
   GUI.style.height = "155px";
   GUI.style.width = "160px";
   GUI.style.boxShadow = "0 16px 32px 0 rgba(0,0,0,0.2), 0 12px 40px 0 rgba(0,0,0,0.19)";
-  GUI.scrollTop = "200px";
-  GUI.overflowY = "scroll";
+  GUI.style.scrollTop = "200px";
+  GUI.style.overflowY = "scroll";
 
 
   GUI.style.zIndex = 2147483646;
