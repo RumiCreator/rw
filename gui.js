@@ -50,6 +50,9 @@
   ExecuteButton.onmouseover = function(){ 
     ExecuteButton.style.backgroundColor = "#3e8e41";
   }
+  ExecuteButton.onmouseout = function(){ 
+    ExecuteButton.style.backgroundColor = "#4CAF50";
+  }
 
  
   ExecuteButton.onclick = function() {
