@@ -47,11 +47,10 @@
   transition: all 0.3s ease-in-out;
   top: 115px;
   left: 5px;
-`}
-
-#RWB:hover {
+  :hover {
   background-color: #3e8e41;
 }
+`}
 
 
   `}
