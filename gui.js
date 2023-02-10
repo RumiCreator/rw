@@ -46,8 +46,8 @@ function mouseDown(e){
 function divMove(e){
   var div = GUI;
   div.style.position = 'absolute';
-  div.style.top = e.clientY + '10px';
-  div.style.left = e.clientX + '10px';
+  div.style.top = e.clientY + 'px';
+  div.style.left = e.clientX + 'px';
 }
 
 addListeners()
