@@ -145,7 +145,7 @@
   HideShow.innerHTML = "[RW] Hide/Show";
   HideShow.style.zIndex = 2147483647;
   HideShow.style.position = "absolute";
-  HideShow.style.top = "80px";
+  HideShow.style.top = "10px";
   HideShow.style.left = "5px";
   HideShow.style.display = "inline-block";
   HideShow.style.padding = "10px 20px";
