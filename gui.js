@@ -33,7 +33,7 @@
   ExecuteButton.innerHTML = "Execute Script";
   ExecuteButton.style.zIndex = 2147483647;
   ExecuteButton.style.position = "absolute";
-  ExecuteButton.style.top = "115px";
+  ExecuteButton.style.top = "105px";
   ExecuteButton.style.left = "5px";
   ExecuteButton.style.display = "inline-block";
   ExecuteButton.style.padding = "10px 20px";
@@ -105,7 +105,7 @@
   CommandButton.innerHTML = "Command Line";
   CommandButton.style.zIndex = 2147483647;
   CommandButton.style.position = "absolute";
-  CommandButton.style.top = "80px";
+  CommandButton.style.top = "85px";
   CommandButton.style.left = "5px";
   CommandButton.style.display = "inline-block";
   CommandButton.style.padding = "10px 20px";
