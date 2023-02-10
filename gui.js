@@ -30,7 +30,7 @@
 
 
   const ExecuteButton = document.createElement('button');
-  ExecuteButton.innerHTML = "Execute Script"
+  ExecuteButton.innerHTML = "Execute Script";
   ExecuteButton.style.zIndex = 2147483647;
   ExecuteButton.style.position = "absolute";
   ExecuteButton.style.top = "115px";
@@ -47,6 +47,9 @@
   ExecuteButton.style.cursor = "pointer";
   ExecuteButton.style.boxShadow = "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)";
   ExecuteButton.style.transition = "all 0.3s ease-in-out";
+  ExecuteButton.onmouseover = function(){ 
+    ExecuteButton.style.backgroundColor = "#3e8e41";
+  }
 
  
   ExecuteButton.onclick = function() {
