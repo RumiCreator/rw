@@ -60,7 +60,7 @@ addListeners()
   ExecuteButton.innerHTML = "Execute Script";
   ExecuteButton.style.zIndex = 2147483647;
   ExecuteButton.style.position = "absolute";
-  ExecuteButton.style.top = "115px";
+  ExecuteButton.style.top = "175px";
   ExecuteButton.style.left = "5px";
   ExecuteButton.style.display = "inline-block";
   ExecuteButton.style.padding = "10px 20px";
