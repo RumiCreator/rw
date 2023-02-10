@@ -44,11 +44,11 @@ function mouseDown(e){
 }
 
 function divMove(e){
-    var div = GUI;
+  var div = GUI;
   div.style.position = 'absolute';
   div.style.top = e.clientY + 'px';
   div.style.left = e.clientX + 'px';
-}​
+}
 
   const ExecuteButton = document.createElement('button');
   ExecuteButton.innerHTML = "Execute Script";
