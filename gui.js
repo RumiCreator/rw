@@ -17,7 +17,7 @@
   GUI.style.backgroundColor = "darkRed";
   GUI.style.borderRadius = "6px"
   GUI.style.height = "155px";
-  GUI.style.width = "200px";
+  GUI.style.width = "160px";
 
   GUI.style.zIndex = 2147483646;
   document.body.appendChild(GUI);
