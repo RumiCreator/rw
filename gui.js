@@ -69,7 +69,7 @@
   ExploreButton.innerHTML = "Explore Global Scripts";
   ExploreButton.style.zIndex = 2147483647;
   ExploreButton.style.position = "absolute";
-  ExploreButton.style.top = "115px";
+  ExploreButton.style.top = "35px";
   ExploreButton.style.left = "5px";
   ExploreButton.style.display = "inline-block";
   ExploreButton.style.padding = "10px 20px";
