@@ -15,7 +15,7 @@
   GUI.style.top = "0px";
   GUI.style.left = "0px";
   GUI.style.backgroundColor = "darkRed";
-  GUI.style.borderRadius = "15px"
+  GUI.style.borderRadius = "6px"
   GUI.style.height = "155px";
   GUI.style.width = "200px";
 
