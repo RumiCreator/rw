@@ -60,7 +60,7 @@ addListeners()
   ExecuteButton.innerHTML = "Execute Script";
   ExecuteButton.style.zIndex = 2147483647;
   ExecuteButton.style.position = "absolute";
-  ExecuteButton.style.top = "175px";
+  ExecuteButton.style.top = "45px";
   ExecuteButton.style.left = "5px";
   ExecuteButton.style.display = "inline-block";
   ExecuteButton.style.padding = "10px 20px";
@@ -90,81 +90,12 @@ addListeners()
   }
   GUI.appendChild(ExecuteButton);
 
-  //  ExploreButton.style.top = "35px";
-  //  ExploreButton.style.left = "5px";
-  const ExploreButton = document.createElement('button');
-  ExploreButton.innerHTML = "Explore Global Scripts";
-  ExploreButton.style.zIndex = 2147483647;
-  ExploreButton.style.position = "absolute";
-  ExploreButton.style.top = "45px";
-  ExploreButton.style.left = "5px";
-  ExploreButton.style.display = "inline-block";
-  ExploreButton.style.padding = "10px 20px";
-  ExploreButton.style.backgroundColor = "#ff0000";
-  ExploreButton.style.color = "white";
-  ExploreButton.style.textAlign = "center";
-  ExploreButton.style.textDecoration = "none";
-  ExploreButton.style.borderRadius = "4px";
-  ExploreButton.style.border = "none";
-  ExploreButton.style.fontSize = "10px";
-  ExploreButton.style.cursor = "pointer";
-  ExploreButton.style.boxShadow = "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)";
-  ExploreButton.style.transition = "all 0.3s ease-in-out";
-  ExploreButton.onmouseover = function(){ 
-    ExploreButton.style.backgroundColor = "#b00000";
-  }
-  ExploreButton.onmouseout = function(){ 
-    ExploreButton.style.backgroundColor = "#ff0000";
-  }
-  
-  ExploreButton.onclick = function() {
-    const ExploreDiv = document.createElement('div');
-    ExploreDiv.zIndex = 2147483647;
-    ExploreDiv.backgroundColor = "darkRed";
-    ExploreDiv.borderRadius = "6px";
-    ExploreDiv.style.boxShadow = "0 16px 32px 0 rgba(0,0,0,0.2), 0 12px 40px 0 rgba(0,0,0,0.19)";
-    ExploreDiv.color = "darkRed";
-  }
-  GUI.appendChild(ExploreButton);
-
-
-  const CommandButton = document.createElement('button');
-  CommandButton.innerHTML = "Command Line";
-  CommandButton.style.zIndex = 2147483647;
-  CommandButton.style.position = "absolute";
-  CommandButton.style.top = "80px";
-  CommandButton.style.left = "5px";
-  CommandButton.style.display = "inline-block";
-  CommandButton.style.padding = "10px 20px";
-  CommandButton.style.backgroundColor = "#ff0000";
-  CommandButton.style.color = "white";
-  CommandButton.style.textAlign = "center";
-  CommandButton.style.textDecoration = "none";
-  CommandButton.style.borderRadius = "4px";
-  CommandButton.style.border = "none";
-  CommandButton.style.fontSize = "10px";
-  CommandButton.style.cursor = "pointer";
-  CommandButton.style.boxShadow = "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)";
-  CommandButton.style.transition = "all 0.3s ease-in-out";
-  CommandButton.onmouseover = function(){ 
-    CommandButton.style.backgroundColor = "#b00000";
-  }
-  CommandButton.onmouseout = function(){ 
-    CommandButton.style.backgroundColor = "#ff0000";
-  }
-  GUI.appendChild(CommandButton);
 
   function CheckForHidden() {
     if (hidden == "false") {
       GUI.style.opacity = 1;
-      TextContent.style.opacity = 1;
-      ExecuteButton.style.opacity = 1;
-      ExploreButton.style.opacity = 1;
     } else {
       GUI.style.opacity = 0;
-      TextContent.style.opacity = 0;
-      ExecuteButton.style.opacity = 0;
-      ExploreButton.style.opacity = 0;
     }
   }
 
