@@ -143,11 +143,28 @@
 
   const HideShow = document.createElement('button');
   HideShow.innerHTML = "[RW] Hide/Show";
-  HideShow.zIndex = 2147483647;
+  HideShow.style.zIndex = 2147483647;
   HideShow.style.position = "absolute";
-  HideShow.style.borderRadius = "10px";
-  HideShow.style.top = "10px";
+  HideShow.style.top = "80px";
   HideShow.style.left = "5px";
+  HideShow.style.display = "inline-block";
+  HideShow.style.padding = "10px 20px";
+  HideShow.style.backgroundColor = "#ff0000";
+  HideShow.style.color = "white";
+  HideShow.style.textAlign = "center";
+  HideShow.style.textDecoration = "none";
+  HideShow.style.borderRadius = "4px";
+  HideShow.style.border = "none";
+  HideShow.style.fontSize = "10px";
+  HideShow.style.cursor = "pointer";
+  HideShow.style.boxShadow = "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)";
+  HideShow.style.transition = "all 0.3s ease-in-out";
+  HideShow.onmouseover = function(){ 
+    HideShow.style.backgroundColor = "#b00000";
+  }
+  HideShow.onmouseout = function(){ 
+    HideShow.style.backgroundColor = "#ff0000";
+  }
   HideShow.onclick = function() {
     if (hidden == "false") {
       hidden = "true";
