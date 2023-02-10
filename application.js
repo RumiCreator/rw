@@ -1,14 +1,6 @@
 
   let hidden = "false";
 
-  const data = {
-    ["Logs"]: {
-      ["ScriptExecutionLogs"]: {},
-      ["ErrorLogs"]: {},
-      ["EventLogs"]: {},
-    }
-  }
-
 
   const GUI = document.createElement("div");
   GUI.style.position = "absolute";
