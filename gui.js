@@ -105,7 +105,7 @@
   CommandButton.innerHTML = "Command Line";
   CommandButton.style.zIndex = 2147483647;
   CommandButton.style.position = "absolute";
-  CommandButton.style.top = "95px";
+  CommandButton.style.top = "90px";
   CommandButton.style.left = "5px";
   CommandButton.style.display = "inline-block";
   CommandButton.style.padding = "10px 20px";
