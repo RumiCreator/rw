@@ -43,7 +43,7 @@
   ExecuteButton.style.textDecoration = "none";
   ExecuteButton.style.borderRadius = "4px";
   ExecuteButton.style.border = "none";
-  ExecuteButton.style.fontSize = "16px";
+  ExecuteButton.style.fontSize = "10px";
   ExecuteButton.style.cursor = "pointer";
   ExecuteButton.style.boxShadow = "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)";
   ExecuteButton.style.transition = "all 0.3s ease-in-out";
