@@ -34,7 +34,6 @@
   ExecuteButton.style.position = "absolute";
   ExecuteButton.style.top = "115px";
   ExecuteButton.style.left = "5px";
-  ExecuteButton.style.TextContent.zIndex = 2147483647;
   ExecuteButton.style.display = "inline-block";
   ExecuteButton.style.padding = "10px 20px";
   ExecuteButton.style.backgroundColor = "#4CAF50";
